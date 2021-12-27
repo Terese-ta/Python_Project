@@ -3,7 +3,6 @@ print("Good morning folks")
 
 
 #How do you insert comments in python code
-
 class holiday_destination():
 #The following represents the attributes of my "class", "holiday_destination"
 country = "Bali"
@@ -12,12 +11,15 @@ reason = "reward"
 cost = 500
 duration = "one week"
 number_people = 2
+specs = ["must be exquisite", "by the lake", "there is room for a third guest", "weather must be great, else, notify guests", "must be within clients' budget", "must cater to individualized needs of guests"]
 #I will now define below, the functionality of my class
 def quality(self):
-print("must be exquisite", "by the lake", "there is room for a third guest", "weather must be great, else, notify guests", "must be within clients' budget", "must cater to in dividualized needs of guests")
+for i in self.specs:
+    print(i)
+                                                                                                                                       Terez_destination = holiday_destination()
 
-Terez_destination.quality
-
+                                                                                                                                    
+                                                                                                                                       Terez_destination.quality()
 #How do you create a variable with the numeric value  5
 
 number = 5
@@ -30,9 +32,9 @@ example.py
 
 
 value = 8.6
-value1 = cd 
-type("value""value1")  #str
-value = "8.6cd"
+ 
+
+
 
 
 
