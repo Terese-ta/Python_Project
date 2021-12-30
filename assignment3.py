@@ -105,10 +105,7 @@
 
                                                                                                                                                                                 8)#Use enumerate to print out a numbered grocery list. if you don't have a grocery list, create one.
 
-
-
                                                                                                                                                                                 grocery_list = ["candy", "peach", "lemon", "coffee"]
 
                                                                                                                                                                                 for i, item in enumerate(grocery_list,1):
                                                                                                                                                                                           print(i, ". " + item, sep="")
-
