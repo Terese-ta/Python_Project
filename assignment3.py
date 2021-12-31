@@ -72,7 +72,7 @@ egg
     #phrase ""Blood-oxygenation level dependent functional magnetic resource imaging" using a for loop                                
 
 phrase = "Blood-oxygenation level dependent functional magnetic resource imaging"
-                                                                                                                                           i  = phrase.split()
+i  = phrase.split()
    print(i)
 ['Blood-oxygenation', 'level', 'dependent', 'functional', 'magnetic', 'resource', 'imaging']
 
@@ -85,18 +85,18 @@ grocery_list[1]
 'peach'
 
 grocery_list = ["candy", "peach", "lemon", "coffee", "apple"]
-                                                                                                                                           range = [0,1,2,3,4]
-                                                                                                                                           for i in grocery_list:
+range = [0,1,2,3,4]
+for i in grocery_list:
                                                                                                                                         
 for x in range:
                                                                                                                                         
     print(i,x)
+    
 
-                                                                                                                                        
-
-                                                                                                                                           # 8)#Use enumerate to print out a numbered grocery list. if you don't have a grocery list, create one.
+# 9)#Use enumerate to print out a numbered grocery list. if you don't have a grocery list, create one.
 
 
 grocery_list = ["candy", "peach", "lemon", "coffee"]
 
-for i, item in enumerate(grocery_list,1)                                                                                                    print(i, ". " + item, sep="")
+for i, item in enumerate(grocery_list)
+print(i, ". " + item, sep="")
