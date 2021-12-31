@@ -76,6 +76,7 @@ https://www.w3schools.com/python/python_for_loops.asp
 #7) #Use the string split method, to segment all the words in the 
 phrase ""Blood-oxygenation level dependent functional magnetic resource imaging" using a for loop.
 
+<<<<<<< HEAD
 
  phrase = "Blood-oxygenation level dependent functional magnetic reso
           urce imaging"
@@ -83,6 +84,11 @@ phrase ""Blood-oxygenation level dependent functional magnetic resource imaging"
 i  = phrase.split()
 
  print(i)
+=======
+phrase = "Blood-oxygenation level dependent functional magnetic resource imaging"
+i  = phrase.split()
+   print(i)
+>>>>>>> 19a8f0f901974ce97aba9113e3081bb17b832011
 ['Blood-oxygenation', 'level', 'dependent', 'functional', 'magnetic', 'resource', 'imaging']
 
 
@@ -91,12 +97,25 @@ i  = phrase.split()
 
  grocery_list = ["candy", "peach", "lemon", "coffee", "apple"]
 
+<<<<<<< HEAD
  grocery_list[1]
  'peach'
 
  grocery_list = ["candy", "peach", "lemon", "coffee", "apple"]
 
  range = [0,1,2,3,4]
+=======
+grocery_list = ["candy", "peach", "lemon", "coffee", "apple"]
+range = [0,1,2,3,4]
+for i in grocery_list:
+                                                                                                                                        
+for x in range:
+                                                                                                                                        
+    print(i,x)
+    
+
+# 9)#Use enumerate to print out a numbered grocery list. if you don't have a grocery list, create one.
+>>>>>>> 19a8f0f901974ce97aba9113e3081bb17b832011
 
  for i in grocery_list:
           for x in range:
@@ -107,5 +126,10 @@ i  = phrase.split()
 
 grocery_list = ["candy", "peach", "lemon", "coffee"]
 
+<<<<<<< HEAD
 for i, item in enumerate(grocery_list,1):
           print(i, ". " + item, sep="")
+=======
+for i, item in enumerate(grocery_list)
+print(i, ". " + item, sep="")
+>>>>>>> 19a8f0f901974ce97aba9113e3081bb17b832011
