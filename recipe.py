@@ -12,3 +12,4 @@ Algorithm to make orange juice
  Squeeze the juice from the first half of the orange with your hand into the glass
  Squeeze out the juice from the second half of the orange with your hand into a glass
  Yellow liquid that collects in the glass is your orange juice
+ The End!
